@@ -1,0 +1,116 @@
+
+#location-holder {
+	position:absolute;
+	bottom: 50%;
+	width: 30%;
+	background: #DEB887;
+	text-align: center;
+	border-radius: 15px;
+}
+.input{
+	border-radius: 10px;
+	height: 30px;
+	margin-top: 15px;
+}
+#weather {
+	display: none;
+	text-align: center;
+}
+
+.single-stat {
+	margin-top: 10px;
+	width: 140px;
+	float: left;
+	border: solid 2px black;
+	height: 100px;
+	border-radius: 15px;
+	margin-left: 10px;
+	background: #DEB887;
+}
+
+#weather-location p, .single-stat p {
+	font-size: 1.3em;
+	font-weight: 600;
+}
+
+.result {
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+.single-stat .wi {
+	margin-right: 1ch;
+	color: teal;
+}
+
+.single-stat .icon-after {
+	margin-left: 1ch;
+	margin-right: 0;
+}
+
+
+.label {
+	background-color: teal;
+}
+
+.button {
+  background: linear-gradient(to top left, #ffffff, #bf7115);
+  width: 200px;
+  height: 35px;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+
+}
+
+.button:hover {
+  	color: #be1622;
+    text-decoration: none;
+    background: linear-gradient(to top left, #ffffff, #bf1515);
+    box-shadow: 5px 5px 5px grey;
+    transition: 0.5s;
+}
+
+.button, .label {
+	color: #696664;
+	font-size: 1em;
+    border: none;
+}
+
+
+i#weather-icon {
+	font-size: 4em;
+	color: white;
+
+}
+#weather-location {
+	background-color: #DEB887;
+	width: 300px;
+	border-radius: 15px;
+}
+
+#weather-header {
+	background-color: #DEB887;
+	color: white;
+	width: 300px;
+	height: 40px;
+	border-radius: 15px;
+}
+
+#weather-stats {
+	background-color: #f3f3f3;
+	margin-bottom: 1em;
+}
+
+#weather-footer {
+	background-color: teal;
+	color: white;
+}
+
+#degrees {
+	margin-right: 1em;
+	float:right;
+}
+#degreeToggle {
+	float:left;
+}
